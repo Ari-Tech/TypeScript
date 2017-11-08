@@ -1,0 +1,10 @@
+var a = 12;
+var b = "12";
+var c = "qwdqwd";
+var d;
+var e;
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof e);

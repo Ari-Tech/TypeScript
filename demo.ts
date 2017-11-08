@@ -12,9 +12,9 @@ class Greeting {
  obj.greet();
 
  //Type Assertion
- var abc:string="2";
- var def:number = <number> <any> abc;
-console.log(def);
+ var abc1:string="2";
+ var def1:number = <number> <any> abc1;
+console.log(def1*2);
 
 //Inferred Typing in TypeScript
 var num = 2;    // data type inferred as  number 
@@ -22,7 +22,8 @@ console.log("value of num "+num);
 num = "12";
 console.log(num); // cause error
 
+var x:number=11;
+var y:String="wdwd"+x;
+console.log(y);
 
-
-}
 
