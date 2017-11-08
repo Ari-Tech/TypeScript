@@ -4,4 +4,3 @@ function calculate_discount(price:number,rate:number = 0.50):void {
  } 
  calculate_discount(1000) 
  calculate_discount(1000,0.30)
- 
