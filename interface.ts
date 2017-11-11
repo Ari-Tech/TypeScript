@@ -83,3 +83,21 @@ interface IPerson {
  eng["name"]="UOB";
  console.log(eng.id);
  
+ interface vehicle{
+  type:string
+ }
+ interface twowheeler{
+  horsepower:number
+ }
+
+ interface bike extends twowheeler,vehicle{
+   color:string
+ }
+ //var bugati=<bike>{} also works
+
+var bugati:bike={
+  type:"Bike",
+  horsepower:275,
+  color:"blu-white"
+}
+console.log(bugati.color);
